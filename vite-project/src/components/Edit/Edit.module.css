@@ -1,0 +1,47 @@
+
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background: rgb(205, 205, 247);
+}
+.mainBox{
+    background: rgb(230, 207, 207);
+    height: 60%;
+    width: 30%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 5px 10px 0px rgba(57, 71, 95, 0.5);
+    gap: 70px;
+
+}
+
+.text{
+    font-weight: 400;
+    line-height: 20px;
+    font-family: 'Red Hat Display';
+    font-size: large;
+    text-transform: uppercase;
+    color: rgb(85, 85, 107);
+}
+
+.back{
+    height: 100px;
+    width: 100px;
+}
+
+.inputEdit{
+    min-height: 30%;
+    max-height: max-content;
+    max-width: 70%;
+    background: rgb(230, 207, 207);
+    border: none;
+    box-shadow: 0px 5px 10px 0px rgba(57, 71, 95, 0.5);
+    border-radius: 10px;
+}

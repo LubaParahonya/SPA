@@ -1,0 +1,23 @@
+   .listItem{
+        padding-top: 5%;
+        width: 60%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;    
+    }
+
+    .topBox{
+        width: 85%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .searh{
+        width: 40%;
+    }
+
